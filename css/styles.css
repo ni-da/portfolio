@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
 /*!
-* Start Bootstrap - Grayscale v6.0.3 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-
-
-/*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -44,6 +37,108 @@
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+/* html */
+
+.skill-bar-87 {
+    animation: skill-bar-animation-87 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-87 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 87%;
+    }
+}
+
+
+/* css */
+
+.skill-bar-93 {
+    animation: skill-bar-animation-93 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-93 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 93%;
+    }
+}
+
+
+/* JavaScript */
+
+.skill-bar-60 {
+    animation: skill-bar-animation-60 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-60 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+
+/*Angular*/
+
+.skill-bar-76 {
+    animation: skill-bar-animation-76 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-76 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 76%;
+    }
+}
+
+
+/* react */
+
+.skill-bar-51 {
+    animation: skill-bar-animation-51 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-51 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 51%;
+    }
+}
+
+
+/* Node.js */
+
+.skill-bar-45 {
+    animation: skill-bar-animation-45 2s forwards;
+    animation-play-state: paused;
+}
+
+@keyframes skill-bar-animation-45 {
+    0% {
+        width: 1%;
+    }
+    100% {
+        width: 45%;
+    }
 }
 
 *,
@@ -94,18 +189,6 @@ body {
         top: 0px
     }
 }
-
-
-/* @keyframes myfirst2-reverse {
-    0% {
-        left: 0px;
-        top: 0px
-    }
-    100% {
-        right: -60%;
-        top: 0px
-    }
-} */
 
 .skill-progress-bar {
     width: 100%;
