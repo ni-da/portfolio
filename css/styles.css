@@ -713,31 +713,6 @@ mark,
     content: "— ";
 }
 
-.left-col {
-    /* left: 196.6px; */
-    /* background-color: burlywood; */
-    position: initial !important;
-    background: url("../assets/img/face_left.jpg");
-    background-repeat: no-repeat;
-}
-
-.right-col {
-    background-color: pink;
-    position: initial !important;
-    background: url("../assets/img/face_right.jpg");
-    background-repeat: no-repeat;
-    /* padding-right: 0.75rem; */
-    /* padding-left: 0.75rem;*/
-}
-
-.triangle-up {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 100px 85px 100px;
-    border-color: transparent transparent #007bff transparent;
-}
-
 .logo-row {
     padding-left: 43rem;
 }
@@ -4940,7 +4915,7 @@ input[type=button].btn-block {
     }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
     .logo-row {
         padding-left: 0;
     }
@@ -4963,14 +4938,6 @@ input[type=button].btn-block {
         color: white;
         position: relative;
     }
-    /* .projects-section {
-        padding: 0;
-    } */
-    /* .masthead {
-        padding: 0 !important;
-        background-position: top !important;
-        min-height: 0 !important;
-    } */
 }
 
 @media (max-width: 991.98px) {
@@ -5026,6 +4993,9 @@ input[type=button].btn-block {
     .navbar-expand-xl>.container-xl {
         padding-right: 0;
         padding-left: 0;
+    }
+    .arrow-down {
+        visibility: hidden;
     }
 }
 
