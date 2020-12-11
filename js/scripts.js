@@ -61,8 +61,22 @@ $(window).on('scroll', function() {
         $(".skill-bar-45").css("animation-play-state", "running");
     }
 
-    if (y_scroll_pos > 667) {
+    if (y_scroll_pos > 500) {
         $(".side1").css("animation-play-state", "running");
         $(".side2").css("animation-play-state", "running");
     }
 });
+
+function printIntegers() {
+    for (let index = 1; index < 100; index++) {
+        if (index % 3 == 1) {
+            console.log("Open");
+        } else if (index % 7 == 1) {
+            console.log("Source");
+        } else if ((index % 3 == 1 && index % 7 == 1) {
+                console.log("OpenSource");
+            } else {
+                console.log(index);
+            }
+        }
+    }
